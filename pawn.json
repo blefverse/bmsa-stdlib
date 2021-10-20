@@ -1,0 +1,31 @@
+{
+	"user": "brpsamp",
+	"repo": "brpsa-stdlib",
+	"entry": "test.pwn",
+	"output": "test.amx",
+	"dependencies": [
+		"sampctl/samp-stdlib",
+		"Southclaws/samp-logger",
+		"pawn-lang/YSI-Includes@5.x"
+	],
+	"runtime": {
+		"version": "0.3.7",
+		"mode": "server",
+		"rcon_password": "password",
+		"port": 7777
+	},
+	"build": {
+		"name": "main",
+		"args": [
+			"-;+",
+			"-(+",
+			"-\\+",
+			"-d3",
+			"-Z+"
+		],
+		"includes": [
+			"/"
+		],
+		"compiler": {}
+	}
+}
